@@ -7,4 +7,5 @@ if ($studentId) {
 } else {
     echo "Student ID not set.";
 }
+echo "Student ID not set.";
 ?>
