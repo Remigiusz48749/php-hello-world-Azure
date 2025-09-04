@@ -1,8 +1,8 @@
 <?php
-echo "Hello World";
+echo "Hello World ";
 
 $StudentId = getenv("STUDENT_ID"); 
-if ($studentId) {
+if ($StudentId) {
     echo "Student ID: " . htmlspecialchars($StudentId);
 } else {
     echo "Student ID not set.";
